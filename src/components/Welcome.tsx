@@ -69,7 +69,7 @@ export default function Welcome() {
 							'font-size': `${headingSize()}rem`,
 						}}
 					>
-						{"Hey 👋, I'm "}
+						{"Hey, I'm "}
 					</h1>
 				</div>
 				<div
