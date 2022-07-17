@@ -11,7 +11,7 @@ export default function Projects() {
 				<a href="https://gungi.io" class="cursor-pointer">
 					<img
 						src="https://raw.githubusercontent.com/jwyce/gungi.io/bfb78c4f7a4eb452d05b1833cd9d25c53c0de68b/client/src/assets/gungi-github.svg"
-						class="max-h-32 px-12"
+						class="max-h-32 mx-12"
 					/>
 				</a>
 			</div>

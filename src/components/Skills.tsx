@@ -187,11 +187,11 @@ export default function Skills() {
 		<div class="text-gray-400">
 			<For each={sections}>
 				{({ title, items }) => (
-					<div class="py-5 px-5">
+					<div class="py-5 mx-5">
 						<div class="text-white text-center font-extrabold text-[1.5rem] pb-4">
 							{title}
 						</div>
-						<div class="flex flex-row items-start justify-center gap-4 flex-wrap w-screen">
+						<div class="flex flex-row items-start justify-center gap-4 flex-wrap w-full">
 							<For each={items}>
 								{({ name, imgUrl, href }) => (
 									<a href={href} class="hover:scale-110 duration-500">

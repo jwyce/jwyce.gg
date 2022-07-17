@@ -24,13 +24,13 @@ export default function Links() {
 		<div class="text-white flex flex-col items-center justify-center">
 			<img
 				src="https://avatars.githubusercontent.com/u/16946573?v=4"
-				class="h-72 w-72 rounded-full pr-0 mr-0"
+				class="h-72 w-72 rounded-full"
 			/>
 			<div>
 				<div class="font-extrabold text-[1.5rem] text-center py-2">
 					My Links
 				</div>
-				<div class="flex items-center justify-center gap-4 flex-wrap px-16">
+				<div class="flex items-center justify-center gap-4 flex-wrap mx-16">
 					<a
 						href="https://github.com/jwyce"
 						target="_blank"
