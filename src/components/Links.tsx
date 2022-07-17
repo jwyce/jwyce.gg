@@ -30,7 +30,7 @@ export default function Links() {
 				<div class="font-extrabold text-[1.5rem] text-center py-2">
 					My Links
 				</div>
-				<div class="flex items-center justify-center gap-4 flex-wrap mx-16">
+				<div class="flex items-center justify-center gap-4 flex-wrap px-16">
 					<a
 						href="https://github.com/jwyce"
 						target="_blank"

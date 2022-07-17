@@ -187,7 +187,7 @@ export default function Skills() {
 		<div class="text-gray-400">
 			<For each={sections}>
 				{({ title, items }) => (
-					<div class="py-5 mx-5">
+					<div class="py-5 px-4">
 						<div class="text-white text-center font-extrabold text-[1.5rem] pb-4">
 							{title}
 						</div>
@@ -196,7 +196,7 @@ export default function Skills() {
 								{({ name, imgUrl, href }) => (
 									<a href={href} class="hover:scale-110 duration-500">
 										<div class="flex flex-col items-center justify-center">
-											<img alt={name} src={imgUrl} height={75} width={75} />
+											<img alt={name} src={imgUrl} height={70} width={70} />
 											<div class="text-gray-400 font-bold">{name}</div>
 										</div>
 									</a>

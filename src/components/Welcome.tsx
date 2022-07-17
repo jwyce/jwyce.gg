@@ -78,7 +78,7 @@ export default function Welcome() {
 				>
 					Jared
 				</div>
-				<div class="h-32 pt-8">
+				<div class="h-32 pt-8 text-center">
 					<h2 class="text-white text-4xl font-black">
 						A <span class="text-teal-200">software engineer</span> coding for
 						<br /> {years().toString().substring(0, 12)} years
