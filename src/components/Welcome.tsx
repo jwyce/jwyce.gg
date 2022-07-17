@@ -1,4 +1,4 @@
-import * as dayjs from 'dayjs';
+import dayjs from 'dayjs';
 import { createMemo, createSignal, onCleanup } from 'solid-js';
 
 function getWindow() {
@@ -16,6 +16,7 @@ export default function Welcome() {
 	const [years, setYears] = createSignal(
 		dayjs().diff(startedCoding) / YEAR_MILLIS
 	);
+	console.log('years', years());
 
 	// const refreshYears = () => {
 	// 	setYears(dayjs().diff(startedCoding) / YEAR_MILLIS);

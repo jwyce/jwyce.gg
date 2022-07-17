@@ -1,5 +1,5 @@
-import { SiGithub, SiLinkedin, SiTwitter } from 'solid-icons/si';
-import { HiSolidMail } from 'solid-icons/hi';
+import { SiGithub, SiLinkedin, SiTwitter } from 'solid-icons/si/index.js';
+import { HiSolidMail } from 'solid-icons/hi/index.js';
 export default function Links() {
 	const buttonClass = `
     cursor-pointer

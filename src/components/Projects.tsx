@@ -1,4 +1,4 @@
-import { BiSolidLeaf } from 'solid-icons/bi';
+import { BiSolidLeaf } from 'solid-icons/bi/index.js';
 
 export default function Projects() {
 	return (
