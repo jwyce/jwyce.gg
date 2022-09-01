@@ -196,7 +196,7 @@ export default function Skills() {
 								{({ name, imgUrl, href }) => (
 									<a href={href} class="hover:scale-110 duration-500">
 										<div class="flex flex-col items-center justify-center">
-											<img alt={name} src={imgUrl} height={70} width={70} />
+											<img alt={name} src={imgUrl} height={70} width={70} class="rounded-lg" />
 											<div class="text-gray-400 font-bold">{name}</div>
 										</div>
 									</a>
