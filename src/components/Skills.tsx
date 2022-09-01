@@ -154,7 +154,7 @@ const sections: Section[] = [
 			},
 			{
 				name: 'tRPC',
-				imgUrl: 'https://trpc.io/img/logo-no-text.svg',
+				imgUrl: 'https://trpc.io/img/logo.svg',
 				href: 'https://trpc.io/',
 			},
 			{
