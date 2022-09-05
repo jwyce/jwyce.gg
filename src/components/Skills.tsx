@@ -149,7 +149,7 @@ const sections: Section[] = [
 			{
 				name: 'Next',
 				imgUrl:
-					'https://pbs.twimg.com/profile_images/1468045715083509767/JrehsCpb_400x400.png',
+					'https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg',
 				href: 'https://nextjs.org/',
 			},
 			{
