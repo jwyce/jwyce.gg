@@ -17,6 +17,7 @@ const { title } = Astro.props as Props;
 		<SEO
 			title={title}
 			description="Personal Website. A collection of technology I use and projects I've worked on."
+			canonical="https://www.jwyce.gg"
 			openGraph={{
 				basic: {
 					title: 'Personal Website',
@@ -28,8 +29,12 @@ const { title } = Astro.props as Props;
 					description:
 						"A collection of technology I use and projects I've worked on.",
 				},
+				image: {
+					alt: title,
+				},
 			}}
 		/>
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 		<title>{title}</title>
 	</head>
 
