@@ -6,6 +6,7 @@ specifiers:
   '@astrojs/tailwind': ^0.2.1
   '@babel/core': ^7.0.0-0
   astro: ^1.0.0-beta.46
+  astro-seo: ^0.6.0
   dayjs: ^1.11.3
   solid-icons: ^0.5.0
   solid-js: ^1.3.6
@@ -18,6 +19,7 @@ devDependencies:
   '@astrojs/solid-js': 0.1.4_3czbc23nqkmh4e66ssbg3l5ccy
   '@astrojs/tailwind': 0.2.4
   astro: 1.0.0-beta.72
+  astro-seo: 0.6.0
   dayjs: 1.11.3
   solid-icons: 0.5.0_solid-js@1.4.7
   solid-js: 1.4.7
@@ -653,6 +655,10 @@ packages:
     engines: {node: '>=4'}
     dependencies:
       tslib: 2.4.0
+    dev: true
+
+  /astro-seo/0.6.0:
+    resolution: {integrity: sha512-nR+dJlAyQhX6s0oAmbBqPq3KCZax/zVAerFsclGiJQ2znOkS/7L+RGjziS4M9Q3OQxm3FMfqIKHp9Ns73Q81ww==}
     dev: true
 
   /astro/1.0.0-beta.72:

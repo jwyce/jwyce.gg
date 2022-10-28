@@ -1,5 +1,7 @@
 ---
 import '../assets/global.css';
+import { SEO } from 'astro-seo';
+
 export interface Props {
 	title: string;
 }
@@ -12,10 +14,20 @@ const { title } = Astro.props as Props;
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<meta property="og:title" content="Jared Wyce" />
-		<meta
-			property="og:description"
-			content="Personal Website. A collection of technology I use and projects I've worked on."
+		<SEO
+			title={title}
+			description="Personal Website. A collection of technology I use and projects I've worked on."
+			openGraph={{
+				basic: {
+					title,
+					type: 'Website',
+					image: '/favicon.ico',
+				},
+				optional: {
+					description:
+						"Personal Website. A collection of technology I use and projects I've worked on.",
+				},
+			}}
 		/>
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 		<title>{title}</title>
