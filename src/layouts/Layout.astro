@@ -19,17 +19,17 @@ const { title } = Astro.props as Props;
 			description="Personal Website. A collection of technology I use and projects I've worked on."
 			openGraph={{
 				basic: {
-					title,
+					title: 'Personal Website',
 					type: 'Website',
 					image: '/favicon.ico',
+					url: 'www.jwyce.gg',
 				},
 				optional: {
 					description:
-						"Personal Website. A collection of technology I use and projects I've worked on.",
+						"A collection of technology I use and projects I've worked on.",
 				},
 			}}
 		/>
-		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 		<title>{title}</title>
 	</head>
 
