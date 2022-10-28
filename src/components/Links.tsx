@@ -23,6 +23,7 @@ export default function Links() {
 	return (
 		<div class="text-white flex flex-col items-center justify-center">
 			<img
+				alt="jwyce"
 				src="https://avatars.githubusercontent.com/u/16946573?v=4"
 				class="h-72 w-72 rounded-full"
 			/>
@@ -34,6 +35,7 @@ export default function Links() {
 					<a
 						href="https://github.com/jwyce"
 						target="_blank"
+						aria-label="github"
 						class={buttonClass}
 					>
 						<SiGithub
@@ -45,6 +47,7 @@ export default function Links() {
 					<a
 						href="https://www.linkedin.com/in/jaredwyce/"
 						target="_blank"
+						aria-label="linkedin"
 						class={buttonClass}
 					>
 						<SiLinkedin
@@ -56,6 +59,7 @@ export default function Links() {
 					<a
 						href="https://twitter.com/JaredWyce"
 						target="_blank"
+						aria-label="twitter"
 						class={buttonClass}
 					>
 						<SiTwitter
@@ -64,7 +68,11 @@ export default function Links() {
 						/>
 						Twitter
 					</a>
-					<a href="mailto:wycejared@gmail.com" class={buttonClass}>
+					<a
+						href="mailto:wycejared@gmail.com"
+						class={buttonClass}
+						aria-label="email"
+					>
 						<HiSolidMail
 							class="inline w-5 h-5 -mt-[4px] -ml-1 mr-2"
 							fill="white"

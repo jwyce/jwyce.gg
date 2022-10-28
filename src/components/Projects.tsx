@@ -8,8 +8,9 @@ export default function Projects() {
 				My Projects
 			</div>
 			<div class="text-white flex flex-col items-center justify-center">
-				<a href="https://gungi.io" class="cursor-pointer">
+				<a href="https://gungi.io" class="cursor-pointer" aria-label="gungi.io">
 					<img
+						alt="gungi.io"
 						src="https://raw.githubusercontent.com/jwyce/gungi.io/bfb78c4f7a4eb452d05b1833cd9d25c53c0de68b/client/src/assets/gungi-github.svg"
 						class="max-h-32 px-12"
 					/>

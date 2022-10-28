@@ -194,9 +194,19 @@ export default function Skills() {
 						<div class="flex flex-row items-start justify-center gap-4 flex-wrap w-full">
 							<For each={items}>
 								{({ name, imgUrl, href }) => (
-									<a href={href} class="hover:scale-110 duration-500">
+									<a
+										href={href}
+										class="hover:scale-110 duration-500"
+										aria-label={name}
+									>
 										<div class="flex flex-col items-center justify-center">
-											<img alt={name} src={imgUrl} height={70} width={70} class="rounded-lg" />
+											<img
+												alt={name}
+												src={imgUrl}
+												height={70}
+												width={70}
+												class="rounded-lg"
+											/>
 											<div class="text-gray-400 font-bold">{name}</div>
 										</div>
 									</a>
