@@ -58,7 +58,7 @@ export default function Welcome() {
 		<>
 			{scroll() > (window.innerHeight - remInPx(3)) / 2 + remInPx(0.5) && (
 				<div class="bg-neutral-900 z-10 text-purple-400 text-center font-black w-full fixed leading-none top-0 py-2 text-[3rem] border-b border-neutral-800 border-opacity-100 transition-opacity">
-					Jared
+					Jared 🎄
 				</div>
 			)}
 			<div class="text-center font-black leading-none">
@@ -76,7 +76,7 @@ export default function Welcome() {
 					class="text-purple-400 sticky top-2"
 					style={{ 'font-size': `${headingSize()}rem` }}
 				>
-					Jared
+					Jared 🎄
 				</div>
 				<div class="h-32 pt-8 text-center">
 					<h2 class="text-white text-4xl font-black">
