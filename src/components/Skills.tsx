@@ -91,9 +91,9 @@ const sections: Section[] = [
 				href: 'https://github.com/jlevy/the-art-of-command-line',
 			},
 			{
-				name: 'Vim',
-				imgUrl: `${vscodeIconsDomain}/file_type_vim.svg`,
-				href: 'https://neovim.io/',
+				name: 'Neovim',
+				imgUrl: `https://avatars.githubusercontent.com/u/6471485?s=200&v=4`,
+				href: 'https://github.com/jwyce/.dotfiles',
 			},
 		],
 	},
