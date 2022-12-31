@@ -1,6 +1,7 @@
 /* https://embed.im/snow */
 var embedimSnow = document.getElementById('embedim--snow');
-if (!embedimSnow) {
+var isDecember = new Date().getMonth() === 11;
+if (!embedimSnow && isDecember) {
 	function embRand(a, b) {
 		return Math.floor(Math.random() * (b - a + 1)) + a;
 	}
