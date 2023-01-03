@@ -123,7 +123,7 @@ const sections: Section[] = [
 			},
 			{
 				name: 'Solid',
-				imgUrl: 'https://www.solidjs.com/assets/logo.123b04bc.svg',
+				imgUrl: 'https://www.solidjs.com/assets/logo-123b04bc.svg',
 				href: 'https://solidjs.com/',
 			},
 			{
