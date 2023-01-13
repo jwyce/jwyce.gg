@@ -15,7 +15,7 @@ const vscodeIconsDomain =
 const materialIconsDomain =
 	'https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/eddd21641e769b1d4d8974834fb75166038b2e52/icons/';
 const beardedIconsDomain =
-	'https://raw.githubusercontent.com/BeardedBear/bearded-icons/ee4c07117bc14b45187c12dfb1a45a8c52e74681/icons/';
+	'https://raw.githubusercontent.com/BeardedBear/bearded-icons/master/icons';
 const sections: Section[] = [
 	{
 		title: "Things I'm great at",
@@ -32,12 +32,12 @@ const sections: Section[] = [
 			},
 			{
 				name: 'React',
-				imgUrl: `${vscodeIconsDomain}/file_type_reactjs.svg`,
+				imgUrl: `${beardedIconsDomain}/reactts.svg`,
 				href: 'https://beta.reactjs.org/',
 			},
 			{
 				name: 'GraphQL',
-				imgUrl: `${vscodeIconsDomain}/file_type_graphql.svg`,
+				imgUrl: `${beardedIconsDomain}/graphql.svg`,
 				href: 'https://graphql.org/',
 			},
 			{
@@ -62,7 +62,7 @@ const sections: Section[] = [
 		items: [
 			{
 				name: 'React Native',
-				imgUrl: `${vscodeIconsDomain}/file_type_reactts.svg`,
+        imgUrl: 'https://shopify.github.io/react-native-skia/img/logo.png',
 				href: 'https://reactnative.dev/',
 			},
 			{
@@ -71,9 +71,9 @@ const sections: Section[] = [
 				href: 'https://expo.dev/',
 			},
 			{
-				name: 'CSS',
-				imgUrl: `${beardedIconsDomain}/css.svg`,
-				href: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Reference',
+				name: 'Zod',
+				imgUrl: 'https://zod.dev/logo.svg',
+				href: 'https://zod.dev/',
 			},
 			{
 				name: 'Docker',
@@ -81,9 +81,9 @@ const sections: Section[] = [
 				href: 'https://www.docker.com/',
 			},
 			{
-				name: 'Jest',
-				imgUrl: `${beardedIconsDomain}/jest.svg`,
-				href: 'https://jestjs.io/',
+				name: 'CSS',
+				imgUrl: `${beardedIconsDomain}/css.svg`,
+				href: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Reference',
 			},
 			{
 				name: 'Bash',
@@ -92,7 +92,7 @@ const sections: Section[] = [
 			},
 			{
 				name: 'Neovim',
-				imgUrl: `https://avatars.githubusercontent.com/u/6471485?s=200&v=4`,
+				imgUrl: `${beardedIconsDomain}/nvim.svg`,
 				href: 'https://github.com/jwyce/.dotfiles',
 			},
 		],
@@ -112,8 +112,7 @@ const sections: Section[] = [
 			},
 			{
 				name: 'Tauri',
-				imgUrl:
-					'https://raw.githubusercontent.com/tauri-apps/tauri/HEAD/app-icon.png',
+				imgUrl: `${beardedIconsDomain}/tauri.svg`,
 				href: 'https://tauri.app/',
 			},
 			{
@@ -128,12 +127,12 @@ const sections: Section[] = [
 			},
 			{
 				name: 'Vitest',
-				imgUrl: 'https://vitest.dev/logo.svg',
+				imgUrl: `${beardedIconsDomain}/vitest.svg`,
 				href: 'https://vitest.dev/',
 			},
 			{
 				name: 'Vite',
-				imgUrl: 'https://vitejs.dev/logo.svg',
+				imgUrl: `${beardedIconsDomain}/vite.svg`,
 				href: 'https://vitejs.dev/',
 			},
 		],
@@ -147,12 +146,6 @@ const sections: Section[] = [
 				href: 'https://www.typescriptlang.org/',
 			},
 			{
-				name: 'Next',
-				imgUrl:
-					'https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg',
-				href: 'https://nextjs.org/',
-			},
-			{
 				name: 'tRPC',
 				imgUrl: 'https://trpc.io/img/logo.svg',
 				href: 'https://trpc.io/',
@@ -161,6 +154,11 @@ const sections: Section[] = [
 				name: 'Tailwind',
 				imgUrl: `${beardedIconsDomain}/tailwind.svg`,
 				href: 'https://tailwindcss.com/',
+			},
+			{
+				name: 'Next',
+				imgUrl: `${beardedIconsDomain}/nextconfig.svg`,
+				href: 'https://nextjs.org/',
 			},
 			{
 				name: 'Vercel',
