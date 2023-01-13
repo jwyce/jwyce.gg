@@ -32,12 +32,12 @@ const sections: Section[] = [
 			},
 			{
 				name: 'React',
-				imgUrl: `${beardedIconsDomain}/reactts.svg`,
+				imgUrl: `${vscodeIconsDomain}/file_type_reactjs.svg`,
 				href: 'https://beta.reactjs.org/',
 			},
 			{
 				name: 'GraphQL',
-				imgUrl: `${beardedIconsDomain}/graphql.svg`,
+				imgUrl: `${vscodeIconsDomain}/file_type_graphql.svg`,
 				href: 'https://graphql.org/',
 			},
 			{
