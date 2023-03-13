@@ -102,7 +102,7 @@ const sections: Section[] = [
 		items: [
 			{
 				name: 'Astro',
-				imgUrl: `${beardedIconsDomain}/astro.svg`,
+				imgUrl: 'https://astro.build/favicon.svg',
 				href: 'https://astro.build/',
 			},
 			{
