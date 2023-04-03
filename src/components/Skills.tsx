@@ -127,12 +127,12 @@ const sections: Section[] = [
 			},
 			{
 				name: 'Vitest',
-				imgUrl: `${beardedIconsDomain}/vitest.svg`,
+				imgUrl: `https://vitest.dev/logo-shadow.svg`,
 				href: 'https://vitest.dev/',
 			},
 			{
 				name: 'Vite',
-				imgUrl: `${beardedIconsDomain}/vite.svg`,
+				imgUrl: `https://vitejs.dev/logo-with-shadow.png`,
 				href: 'https://vitejs.dev/',
 			},
 		],
