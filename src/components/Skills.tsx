@@ -117,8 +117,8 @@ const sections: Section[] = [
 			},
 			{
 				name: 'Deno',
-				imgUrl: 'https://deno.land/logo.svg',
-				href: 'https://deno.land/',
+				imgUrl: 'https://www.denojs.cn/img/logo.png',
+				href: 'https://deno.com/',
 			},
 			{
 				name: 'Solid',
