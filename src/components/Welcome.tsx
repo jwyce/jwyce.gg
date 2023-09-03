@@ -9,7 +9,7 @@ const remInPx = (rem: number) =>
   rem * parseFloat(getComputedStyle(document.body).fontSize);
 
 const YEAR_MILLIS = 1000 * 60 * 60 * 24 * 365;
-const startedCoding = dayjs("2020-02-10", "year", true);
+const startedCoding = dayjs("2019-05-18", "year", true);
 
 export default function Welcome() {
   const [scroll, setScroll] = createSignal(getWindow()?.scrollY ?? 0);
