@@ -13,7 +13,9 @@ const startedCoding = dayjs("2019-05-18", "year", true);
 
 export default function Welcome() {
   const [scroll, setScroll] = createSignal(getWindow()?.scrollY ?? 0);
-  const years = dayjs().diff(startedCoding) / YEAR_MILLIS;
+  const [years, setYears] = createSignal(
+    dayjs().diff(startedCoding) / YEAR_MILLIS
+  );
 
   const window = getWindow();
   if (!window) return null;
@@ -21,6 +23,12 @@ export default function Welcome() {
   const listener = () => {
     setScroll(getWindow()?.scrollY ?? 0);
   };
+
+  const refreshYears = () => {
+    setYears(dayjs().diff(startedCoding) / YEAR_MILLIS);
+  };
+  const interval = setInterval(() => refreshYears(), 50);
+  onCleanup(() => clearInterval(interval));
 
   getWindow()?.addEventListener("scroll", listener);
   onCleanup(() => getWindow()?.removeEventListener("scroll", listener));
@@ -75,7 +83,11 @@ export default function Welcome() {
         <div class="h-32 pt-8 text-center">
           <h2 class="text-white text-4xl font-black">
             A <span class="text-teal-200">software engineer</span> coding for
-            <br /> {years.toString().substring(0, 12)} years
+            <br />{" "}
+            <span class="tabular-nums">
+              {years().toString().substring(0, 12)}
+            </span>{" "}
+            years
           </h2>
         </div>
       </div>
