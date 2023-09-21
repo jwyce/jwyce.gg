@@ -4,6 +4,9 @@
 
 body {
 	background-color: rgb(23, 23, 23);
+}
+
+[data-color-scheme="dark"] {
   color-scheme: dark;
 }
 
