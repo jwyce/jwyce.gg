@@ -3,10 +3,19 @@
 @tailwind utilities;
 
 body {
-	background-color: rgb(23, 23, 23);
+  background-color: rgb(23, 23, 23);
+}
+
+canvas#ghost {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  z-index: 10000;
+  pointer-events: none;
 }
 
 [data-color-scheme="dark"] {
   color-scheme: dark;
 }
-
